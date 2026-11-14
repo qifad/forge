@@ -1,0 +1,18 @@
+
+# 本机开发产物（日志里有本机路径，预览配置只对本机有效）
+*.log
+.claude/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+*.pem
